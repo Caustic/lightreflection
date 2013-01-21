@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Light Reflection</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/stylesheet.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/lightbox.js"></script>
+    <script type="text/javascript" src="../assets/js/application.js"></script>
+  </head>
+  <body>
+    <!-- The "data" div is where all the images you want to be displayed on the page will be placed" -->
+    <!-- The classes for the divs below determine the destination of the image.  For example, a "col gallery" class will go to the div with id == "gallery". the "col" class is there simply for the dynamic layout (resizing page gives different number of columns).  If col isn't included then the javascript won't know to include it -->
+    <div class="data">
+      <!-- Template below:
+      <div class="col gallery">
+        <a href="" rel="lightbox[gallery]" title=""><img src=""></a>
+      </div>
+      -->
+      <div id="table-ids" data-tableids="mon ced"></div>
+      <div class="col mon"><a href=mon1.jpg rel="lightbox[mon]"><img src="mon1s.jpg"></a></div>
+      <div class="col mon"><a href=mon2.jpg rel="lightbox[mon]"><img src="mon2s.jpg"></a></div>
+      <div class="col mon"><a href=mon3.jpg rel="lightbox[mon]"><img src="mon3s.jpg"></a></div>
+      <div class="col mon"><a href=mon4.jpg rel="lightbox[mon]"><img src="mon4s.jpg"></a></div>
+      <div class="col mon"><a href=mon5.jpg rel="lightbox[mon]"><img src="mon5s.jpg"></a></div>
+      <div class="col mon"><a href=mon6.jpg rel="lightbox[mon]"><img src="mon6s.jpg"></a></div>
+      <div class="col mon"><a href=mon7.jpg rel="lightbox[mon]"><img src="mon7s.jpg"></a></div>
+      <div class="col mon"><a href=mon8.jpg rel="lightbox[mon]"><img src="mon8s.jpg"></a></div>
+      <div class="col mon"><a href=mon9.jpg rel="lightbox[mon]"><img src="mon9s.jpg"></a></div>
+      <div class="col mon"><a href=mon10.jpg rel="lightbox[mon]"><img src="mon10s.jpg"></a></div>
+      <div class="col mon"><a href=mon11.jpg rel="lightbox[mon]"><img src="mon11s.jpg"></a></div>
+      <div class="col mon"><a href=mon12.jpg rel="lightbox[mon]"><img src="mon12s.jpg"></a></div>
+      <div class="col ced"><a href=ced1.jpg rel="lightbox[ced]"><img src="ced1s.jpg"></a></div>
+      <div class="col ced"><a href=ced2.jpg rel="lightbox[ced]"><img src="ced2s.jpg"></a></div>
+      <div class="col ced"><a href=ced3.jpg rel="lightbox[ced]"><img src="ced3s.jpg"></a></div>
+      <div class="col ced"><a href=ced4.jpg rel="lightbox[ced]"><img src="ced4s.jpg"></a></div>
+      <div class="col ced"><a href=ced5.jpg rel="lightbox[ced]"><img src="ced5s.jpg"></a></div>
+      <div class="col ced"><a href=ced6.jpg rel="lightbox[ced]"><img src="ced6s.jpg"></a></div>
+      <div class="col ced"><a href=ced7.jpg rel="lightbox[ced]"><img src="ced7s.jpg"></a></div>
+      <div class="col ced"><a href=ced8.jpg rel="lightbox[ced]"><img src="ced8s.jpg"></a></div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h1>GALLERY TITLE</h1>
+        <h2>Photography by Rick Decker</h2>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../bio.html">Biography</a></li>
+          <li><a href="mailto:rickdecker@hawaii.rr.com">Email Me</a></li>
+        </ul>
+      </div>
+      <div id="mon">
+        <div class="row mon">
+        </div>
+      </div>
+      <div id="ced">
+        <div class="row ced">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
