@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  color: #CCCCCC;
+  background-color: #000000;
+}
+.links ul li {
+  font-size: 1.2em;
+  display: inline;
+}
+.links a {
+  padding: 10px;
+  color: #CCCCCC;
+}
+.links {
+  padding-bottom: 20px;
+}
+.data {
+  display: none;
+}
+.row {
+  clear: both;
+  margin: auto;
+  width: 75%;
+}
+.col {
+  height: 150px;
+  float: left;
+}

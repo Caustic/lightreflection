@@ -13,7 +13,7 @@ var sizeTables = function () {
 var addTable = function (dest) {
   var width = $( '.row.' + dest ).width();
   $( '.row.' + dest ).remove();
-  var col = Math.floor(width / 100);
+  var col = Math.floor(width / 225);
   col = col === 0 ? 1 : col;
   $( '.col.' + dest ).css('width', 100 / col + "%").each(function (index) {
     if (index % col === 0) {
