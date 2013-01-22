@@ -15,7 +15,7 @@ var addTable = function (dest) {
   $( '.row.' + dest ).remove();
   var col = Math.floor(width / 225);
   col = col === 0 ? 1 : col;
-  $( '.col.' + dest ).css('width', 100 / col + "%").each(function (index) {
+  $( '.col.' + dest ).width(100 / col + "%").each(function (index) {
     if (index % col === 0) {
       $( '#' + dest ).append('<div class="row ' + dest + '"></div>');
     }
